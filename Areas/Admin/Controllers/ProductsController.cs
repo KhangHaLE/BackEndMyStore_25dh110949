@@ -26,7 +26,7 @@ namespace BackEndMyStore_25dh110949.Areas.Admin.Controllers
             {
                 products = products.Where(p =>
                 p.ProductName.Contains(searchTerm) || 
-                p.ProductDecription.Contains(searchTerm) ||
+                p.ProductDescription.Contains(searchTerm) ||
                 p.Category.CategoryName.Contains(searchTerm)
                 );
             }
